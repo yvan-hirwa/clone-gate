@@ -65,39 +65,46 @@
 
         <!-- NAV -->
 
-        <div class="hidden lg:flex lg:justify-center lg:items-center lg:w-full sticky top-0 z-60">
+        <div id="menu-wrapper" class="hidden lg:flex lg:justify-center lg:items-center lg:w-full sticky top-0 z-50 transition-colors duration-300">
           <nav class="bg-[#242e8f] w-[87%] h-22 rounded-lg flex justify-start items-center p-10">
-            <a href="#" class="text-white p-2  border-b-2 border-amber-400 text-[13px] text-center">HOME</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">SCHEMES</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">INVESTMENT</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">MANAGEMENT</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">ABOUT</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">CAREERS</a>
-            <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">NEWS & EVENTS</a> 
+            <a href="#" class="text-white p-2 border-b-2 border-amber-400 text-[13px] text-center">HOME</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">SCHEMES</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">INVESTMENT</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">MANAGEMENT</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">ABOUT</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">CAREERS</a>
+            <a href="#" class="text-white p-2 hover:border-b-2 border-amber-400 text-[13px] text-center">NEWS & EVENTS</a> 
           </nav>
         </div>
 
       <!-- HERO SECTION -->
-       <div class="relative flex h-[400px] w-full overflow-x-hidden lg:-mt-10">
-        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./img/hero.png');"></div>
+       <div class="relative flex h-[300px] sm:h-[350px] lg:h-[400px] w-full overflow-hidden lg:-mt-10">
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-right bg-no-repeat bg-contain" 
+              style="background-image: url('./img/hero.png');"></div>
 
-        <div class="absolute inset-0 bg-black/20"></div>
+          <!-- Dark Overlay -->
+          <div class="absolute inset-0 bg-black/20"></div>
 
-        <div class="absolute inset-0 bg-gradient-to-r from-[#e7ecef] to-transparent"></div>
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-r from-[#e7ecef] to-transparent"></div>
 
-        
-        <div class="relative z-10 flex flex-1 items-center justify-start p-10">
-          <div class="max-w-md">
-            <h1 class="text-2xl text-blue-950 mb-4">Our Health. <span class="text-amber-400">Our Future</span></h1>
-            <p class="text-sm font-bold text-blue-900">
-              MEDICAL
-            </p>
-            <button class="px-4 py-2 bg-[#242e8f] text-white font-bold rounded-lg">
-              Learn More
-            </button>
+          <!-- Content -->
+          <div class="relative z-10 flex flex-1 items-center justify-start p-6 sm:p-10">
+            <div class="max-w-md">
+              <h1 class="text-xl sm:text-2xl lg:text-4xl font-bold text-blue-950 mb-4">
+                Our Health. <span class="text-amber-400">Our Future</span>
+              </h1>
+              <p class="text-xs sm:text-sm font-bold text-blue-900 mb-4">
+                MEDICAL
+              </p>
+              <button class="px-8 py-2 bg-[#242e8f] text-white font-bold rounded-lg">
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+
 
 
       <!-- CARDS -->
@@ -313,8 +320,8 @@
 
     <!-- DIGITAL CHECK LIST -->
 
-    <div class="flex flex-col justify-center items-center p-10 gap-3 md:flex-row">
-      <div class="flex flex-col justify-center items-start gap-4">
+    <div class="flex flex-col justify-center items-center p-10 gap-4 md:flex-row">
+      <div class="flex flex-col justify-center items-start gap-4 ">
         <div>
           <img src="./img/trend.svg" alt="" class="w-14 p-4 bg-blue-100/80 rounded-[50%]">
         </div>
@@ -322,15 +329,146 @@
           <h1 class="text-xl text-[#1f2f4f] font-bold">Changing from Legacy processes and systems</h1>
         </div>
         <div>
-          <p class="text-lg text-gray-600">
-            <span class="text-amber-400">Imisanzu</span>  revolutionizes the way you manage your social security contributions. 
-            Access your information anytime, anywhere with ease and security. 
-            Enjoy convenience and transparency. Take control of your future and join Imisanzu today.
+          <p class="text-md text-gray-600">
+            As we enter a new era of technology advances and data-driven business models, 
+            we are upgrading our systems and processes to gain in operational efficiency, 
+            address technology constraints, meet members experience expectations and support adoption and integration with other systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center items-start gap-4 ">
+        <div>
+          <img src="./img/playlist.svg" alt="" class="w-14 p-4 bg-blue-100/80 rounded-[50%]">
+        </div>
+        <div>
+          <h1 class="text-xl text-[#1f2f4f] font-bold">Non-paper based processes</h1>
+        </div>
+        <div>
+          <p class="text-md text-gray-600">
+            We are moving away from the time-taking processes as we process large number of member's claims. 
+            Members and partners will be enjoying the benefits such as timely and faster responses and reimbursements 
+            for their claims by reducing the time taken for processes to be completed.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-start gap-4 ">
+        <div>
+          <img src="./img/shield.svg" alt="" class="w-14 p-4 bg-blue-100/80 rounded-[50%]">
+        </div>
+        <div>
+          <h1 class="text-xl text-[#1f2f4f] font-bold">Changing from Legacy processes and systems</h1>
+        </div>
+        <div>
+          <p class="text-md text-gray-600">
+            Digital-led compliance for private and public institutions to ensure the compliance and fraud monitoring. 
+            Our members will have a seamless and transparent access of their contributions/benefits via intelligent systems and 
+            notification ecosystem.
           </p>
         </div>
       </div>
 
     </div>
 
+    <div class="p-10 h-full bg-[#f7f7f7] w-full">
+        <!-- Inner content with border -->
+        <div class="flex flex-col justify-center items-start gap-4 border-l-4 border-amber-400 pl-6 max-w-[500px] ">
+          <p class="text-xl">
+            “We have ambitious plans to transform RSSB, by 2025, into an organisation that is not just fully committed to delivering for 
+            our members but that puts members at the heart of all our planning and all our decision-making. 
+            Our vision is for RSSB to use all of its power and energy on behalf of our members: to be best-in-class in serving their 
+            interests, as a friend and source of help, as a modern, efficient organisation, with user-friendly, enabling technology; 
+            as a source of input to Government thinking; as a national and international thought-leader in social policy; as the 
+            leading strategic investor in our chosen markets; and as a prudent but ambitious business partner."
+          </p>
+          <div class="flex justify-center items-center gap-4">
+              <div>
+                <img src="./img/ceo.jpg" alt="" class="w-14 rounded-[50%]">
+              </div>
+              <div class="flex flex-col justify-center items-start">
+                <div class="text-gray-800">Regis RUGEMANSHURO</div>
+                <div class="text-gray-500">CEO, RSSB</div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="w-full p-10  flex flex-col justify-center items-center gap-4 ">
+        <div class="flex justify-center items-center p-10">
+          <h1 class="text-[#242e8f] text-xl font-bold line-left text-center">NEWS & EVENTS</h1>
+      </div>
+
+      <div class="flex flex-col justify-center items-center lg:flex-row  lg:items-stretch gap-4">
+<!-- REUSABLE CARD -->
+        <div class="flex flex-col justify-center items-center gap-4 h-full ">
+          <div class="w-[350px] h-[200px]">
+            <img src="./img/news1.webp" alt="" class="w-full h-full object-cover">
+          </div>
+
+          <div class="flex flex-col justify-center items-start gap-4 max-w-[320px]">
+            <div><p class="text-xs text-gray-500">8 months ago</p></div>
+            <div>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase ">RSSB Engages the private Sectors on Pension Reform and ...</h1>
+            </div>
+
+            <div>
+              <p class="text-gray-600">
+                Kigali: Thursday, November 28th, 2024 The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...
+              </p>
+            </div>
+            <span class="border-b-[1px] border-gray-300 w-full"></span>
+            <div class="text-blue-900 text-sm">Read more ...</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-4 h-full">
+          <div class="w-[350px] h-[200px]">
+            <img src="./img/news2.webp" alt="" class="w-full h-full object-cover">
+          </div>
+
+
+          <div class="flex flex-col justify-center items-start gap-4 max-w-[320px]">
+            <div><p class="text-xs text-gray-500">8 months ago</p></div>
+            <div>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase ">RSSB Engages the private Sectors on Pension Reform and ...</h1>
+            </div>
+
+            <div>
+              <p class="text-gray-600">
+                Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...
+              </p>
+            </div>
+            <span class="border-b-[1px] border-gray-300 w-full"></span>
+            <div class="text-blue-900 text-sm">Read more ...</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-4 h-full">
+          <div class="w-[350px] h-[200px]">
+            <img src="./img/news3.webp" alt="" class="w-full h-full object-cover">
+          </div>
+
+          <div class="flex flex-col justify-center items-start gap-4 max-w-[320px]">
+            <div><p class="text-xs text-gray-500">8 months ago</p></div>
+            <div>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase ">RSSB Engages the private Sectors on Pension Reform and ...</h1>
+            </div>
+
+            <div>
+              <p class="text-gray-600">
+                Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB) engaged with the private sector to discuss upcoming pension reforms, h...
+              </p>
+            </div>
+            <span class="border-b-[1px] border-gray-300 w-full"></span>
+            <div class="text-blue-900 text-sm">Read more ...</div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+
+    <script src="./src/js/index.js" defer></script>
 </body>
 </html>

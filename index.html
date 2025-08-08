@@ -65,7 +65,7 @@
 
         <!-- NAV -->
 
-        <div class="hidden lg:flex lg:justify-center lg:items-center lg:w-screen sticky top-0">
+        <div class="hidden lg:flex lg:justify-center lg:items-center lg:w-full sticky top-0 z-50">
           <nav class="bg-[#242e8f] w-[87%] h-22 rounded-lg flex justify-start items-center p-10">
             <a href="#" class="text-white p-2  border-b-2 border-amber-400 text-[13px] text-center">HOME</a>
             <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">SCHEMES</a>
@@ -76,5 +76,101 @@
             <a href="#" class="text-white p-2  hover:border-b-2 border-amber-400 text-[13px]  text-center">NEWS & EVENTS</a> 
           </nav>
         </div>
+
+      <!-- HERO SECTION -->
+       <div class="relative flex h-[400px] w-full overflow-x-hidden lg:-mt-10">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('./img/hero.png');"></div>
+
+        <div class="absolute inset-0 bg-black/20"></div>
+
+        <div class="absolute inset-0 bg-gradient-to-r from-[#e7ecef] to-transparent"></div>
+
+        
+        <div class="relative z-10 flex flex-1 items-center justify-start p-10">
+          <div class="max-w-md">
+            <h1 class="text-2xl text-blue-950 mb-4">Our Health. <span class="text-amber-400">Our Future</span></h1>
+            <p class="text-sm font-bold text-blue-900">
+              MEDICAL
+            </p>
+            <button class="px-4 py-2 bg-[#242e8f] text-white font-bold rounded-lg">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CARDS -->
+      <div class="w-full flex justify-center items-center -mt-20 bg-[#f7f7f7]">
+        <!-- card1 -->
+        <div class="flex flex-col justify-start items-start min-h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
+          <div>
+            <img src="./img/group.svg" alt="" class="w-12">
+          </div>
+          <div>
+            <h1 class="font-bold text-lg text-[#1f2f4f]">Member First</h1>
+          </div>
+          <div>
+            <p class="text-sm text-gray-700">
+              <span class="text-[#242e8f] font-semibold">13 Million</span> of Rwandans are covered by RSSB Services 
+            </p>
+          </div>
+        </div>
+        <!-- card2 -->
+        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
+          <div>
+            <img src="./img/profit.svg" alt="" class="w-12">
+          </div>
+          <div>
+            <h1 class="font-bold text-lg text-[#1f2f4f]">Experience</h1>
+          </div>
+          <div>
+            <p class="text-sm text-gray-700">
+              <span class="text-[#242e8f] font-semibold">60 years</span> of service for your safety and well-being.
+            </p>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
+          <div>
+            <img src="./img/home.svg" alt="" class="w-12">
+          </div>
+          <div>
+            <h1 class="font-bold text-lg text-[#1f2f4f]">Branches</h1>
+          </div>
+          <div>
+            <p class="text-sm text-gray-700">
+              Our services decentralized in <span class="text-[#242e8f] font-semibold">30 branches</span> for your satisfaction 
+            </p>
+          </div>
+        </div>
+        <!-- card4 -->
+        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
+          <div>
+            <img src="./img/list.svg" alt="" class="w-12">
+          </div>
+          <div>
+            <h1 class="font-bold text-lg text-[#1f2f4f]">Data Driven</h1>
+          </div>
+          <div>
+            <p class="text-sm text-gray-700">
+              Learning from our data to improve the services offered to our members
+            </p>
+          </div>
+        </div>
+        
+      </div>
+
+
+
+      <div class="bg-[#f7f7f7] h-60 w-full flex justify-center items-center">
+          <p class="text-center text-xl lg:text-3xl max-w-[600px] text-[#4b5563] font-extrabold">
+              Optimistic and forward-looking
+              agent of central government, working to achieve
+             <span class="text-[#242e8f]"> the financial security and health of
+              all Rwandans.</span>
+          </p>
+      </div>
+
 </body>
 </html>

@@ -108,65 +108,68 @@
 
 
       <!-- CARDS -->
-      <div class="w-full flex justify-center items-center -mt-20 bg-[#f7f7f7]">
-        <!-- card1 -->
-        <div class="flex flex-col justify-start items-start min-h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
-          <div>
-            <img src="./img/group.svg" alt="" class="w-12">
+      <div class="w-full flex justify-center items-center -mt-20 bg-[#f7f7f7] px-4">
+          <div class="flex gap-0 overflow-x-auto md:overflow-x-visible max-w-full md:max-w-none scrollbar-hide">
+            <!-- card1 -->
+            <div class="flex flex-col justify-start items-start min-h-50 w-60 bg-white z-30 p-6 border border-gray-200 gap-2 flex-shrink-0">
+              <div>
+                <img src="./img/group.svg" alt="" class="w-12">
+              </div>
+              <div>
+                <h1 class="font-bold text-lg text-[#1f2f4f]">Member First</h1>
+              </div>
+              <div>
+                <p class="text-sm text-gray-700">
+                  <span class="text-[#242e8f] font-semibold">13 Million</span> of Rwandans are covered by RSSB Services 
+                </p>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-30 p-6 border border-gray-200 gap-2 flex-shrink-0">
+              <div>
+                <img src="./img/profit.svg" alt="" class="w-12">
+              </div>
+              <div>
+                <h1 class="font-bold text-lg text-[#1f2f4f]">Experience</h1>
+              </div>
+              <div>
+                <p class="text-sm text-gray-700">
+                  <span class="text-[#242e8f] font-semibold">60 years</span> of service for your safety and well-being.
+                </p>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-30 p-6 border border-gray-200 gap-2 flex-shrink-0">
+              <div>
+                <img src="./img/home.svg" alt="" class="w-12">
+              </div>
+              <div>
+                <h1 class="font-bold text-lg text-[#1f2f4f]">Branches</h1>
+              </div>
+              <div>
+                <p class="text-sm text-gray-700">
+                  Our services decentralized in <span class="text-[#242e8f] font-semibold">30 branches</span> for your satisfaction 
+                </p>
+              </div>
+            </div>
+            <!-- card4 -->
+            <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-30 p-6 border border-gray-200 gap-2 flex-shrink-0">
+              <div>
+                <img src="./img/list.svg" alt="" class="w-12">
+              </div>
+              <div>
+                <h1 class="font-bold text-lg text-[#1f2f4f]">Data Driven</h1>
+              </div>
+              <div>
+                <p class="text-sm text-gray-700">
+                  Learning from our data to improve the services offered to our members
+                </p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h1 class="font-bold text-lg text-[#1f2f4f]">Member First</h1>
           </div>
-          <div>
-            <p class="text-sm text-gray-700">
-              <span class="text-[#242e8f] font-semibold">13 Million</span> of Rwandans are covered by RSSB Services 
-            </p>
-          </div>
-        </div>
-        <!-- card2 -->
-        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
-          <div>
-            <img src="./img/profit.svg" alt="" class="w-12">
-          </div>
-          <div>
-            <h1 class="font-bold text-lg text-[#1f2f4f]">Experience</h1>
-          </div>
-          <div>
-            <p class="text-sm text-gray-700">
-              <span class="text-[#242e8f] font-semibold">60 years</span> of service for your safety and well-being.
-            </p>
-          </div>
-        </div>
-        <!-- card3 -->
-        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
-          <div>
-            <img src="./img/home.svg" alt="" class="w-12">
-          </div>
-          <div>
-            <h1 class="font-bold text-lg text-[#1f2f4f]">Branches</h1>
-          </div>
-          <div>
-            <p class="text-sm text-gray-700">
-              Our services decentralized in <span class="text-[#242e8f] font-semibold">30 branches</span> for your satisfaction 
-            </p>
-          </div>
-        </div>
-        <!-- card4 -->
-        <div class="flex flex-col justify-start items-start h-50 w-60 bg-white z-50 p-6 border-1 border-gray-200 gap-2">
-          <div>
-            <img src="./img/list.svg" alt="" class="w-12">
-          </div>
-          <div>
-            <h1 class="font-bold text-lg text-[#1f2f4f]">Data Driven</h1>
-          </div>
-          <div>
-            <p class="text-sm text-gray-700">
-              Learning from our data to improve the services offered to our members
-            </p>
-          </div>
-        </div>
-        
-      </div>
+
+
 
 
         <!-- HEADING -->
@@ -183,98 +186,95 @@
           <h1 class="text-[#242e8f] text-xl font-bold line-left text-center">SOCIAL PROTECTION SCHEMES</h1>
       </div>
       <!-- grids -->
-      <div class=" p-6 w-full ">
-        <div class="grid gap-6 p-6" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
-        
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+      <div class="p-6 w-full">
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+          
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/grid-money.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">pension scheme</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">pension scheme</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 Retire With Dignity
               </p>
             </div>
           </div>
 
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/injury.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">occupational hazards</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">occupational hazards</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 We are Here for You
               </p>
             </div>
           </div>
 
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/medical.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">medical scheme</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">medical scheme</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 Our Health, Our Future
               </p>
             </div>
           </div>
 
-
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/heart.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">cbhi scheme</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">cbhi scheme</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 Giving you Happiness At The Best Rate
               </p>
             </div>
           </div>
 
-
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/wallet.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">ejo heza</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">ejo heza</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 Start Early Reap the Rewards
               </p>
             </div>
           </div>
 
-          <div class="w-[350px] h-[250px] border-1 border-gray-300 rounded-md flex flex-col justify-center items-center gap-1">
+          <div class="min-h-[250px] border border-gray-300 rounded-md flex flex-col justify-center items-center gap-1 p-6">
             <div>
               <img src="./img/mother.svg" alt="" class="w-12">
             </div>
             <div>
-              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase">maternity leave</h1>
+              <h1 class="font-bold text-lg text-[#1f2f4f] uppercase text-center">maternity leave</h1>
             </div>
             <div>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-center">
                 Enjoy your Maternity leave with your full Salary
               </p>
             </div>
           </div>
 
-
+        </div>
       </div>
-    </div>
 
           
           <!-- OTHER INFO -->
